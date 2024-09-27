@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class PemilihanBilangan22 {
 
     public static void main(String[] args) {
-        Scanner utill = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Masukkan sebuah angka: ");
-        int angka = utill.nextInt();
+        int angka = sc.nextInt();
 
         String 
         hasil = angka %2 == 0 ? "Angka bilangan genap":"Angka bilangan ganjil";
@@ -22,7 +22,7 @@ public class PemilihanBilangan22 {
         //     System.out.println("Angka"+angka+"termasuk bilangan ganjil");
         // }
 
-        utill.close();
+        sc.close();
 
     }
 }
