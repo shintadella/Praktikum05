@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class PemilihanHari22 {
@@ -42,5 +41,6 @@ public class PemilihanHari22 {
         //         dayType = "invalid day name" ;
         // }
         System.out.println(dayNumber + "is a" + dayType);
+        utill.close();
     }
 }
