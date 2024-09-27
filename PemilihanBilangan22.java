@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Pecahanbilangan
  */
-public class Pecahanbilangan {
+public class PemilihanBilangan22 {
 
     public static void main(String[] args) {
         Scanner utill = new Scanner(System.in);
