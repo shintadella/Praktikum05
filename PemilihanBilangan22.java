@@ -13,14 +13,6 @@ public class PemilihanBilangan22 {
         String 
         hasil = angka %2 == 0 ? "Angka bilangan genap":"Angka bilangan ganjil";
         System.out.println("Angka "+angka+"termasuk"+hasil);
-        // if (angka%2==0)
-        // {
-        //     System.out.println("angka"+angka+"termasuk bilangan genap");
-        // }
-        // else 
-        // {
-        //     System.out.println("Angka"+angka+"termasuk bilangan ganjil");
-        // }
 
         sc.close();
 
